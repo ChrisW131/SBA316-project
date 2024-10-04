@@ -1,0 +1,75 @@
+header {
+    text-align: center;
+}
+.fav-athlete {
+    padding: 5px;
+    display: flex;
+    height: 150px;
+    width: auto;
+}
+.main {
+    margin: auto;
+    text-align: center;
+    font-size: 17px;
+}
+.side-class {
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+    
+    
+}
+.red {
+    background-color: red;
+    border-radius: 2rem;
+
+}
+.special-title {
+    background-color: black;
+    color: antiquewhite;
+    border-radius: 2rem;
+    height: 2rem;
+    width: 100%;
+    line-height: 2rem;
+    margin: auto;
+    font-size: 1.5rem;
+    font-family: cursive;
+}
+.side-class1 {
+    float: right;
+    /* justify-content: space-around;
+    flex-direction: column; */
+    font-size: 1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+
+#quote.special-title {
+    width: 800px;
+}
+#quote.special-title:hover {
+    color: royalblue;
+}
+
+#chris-story.special-title {
+    width: 800px;
+}
+#chris-story.special-title:hover {
+    color: royalblue;
+}
+
+.blog-post {
+    margin: auto;
+    width: 1200px;
+    height: 7rem;
+    color: antiquewhite;
+    font-family: cursive;
+    z-index: auto;
+}
+.form {
+    background-color: red;
+    border-radius: 2rem;
+    width: 600px;
+    height: 6rem;
+    margin: auto;
+}
